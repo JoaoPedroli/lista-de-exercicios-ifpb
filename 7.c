@@ -6,7 +6,7 @@ int main() {
   scanf("%d", &b);
   printf("Digite o valor da altura do triangulo: ");
   scanf("%d", &a);
-  printf("A area do triangulo eh: %d\n", b*a);
+  printf("A area do triangulo eh: %d\n", (b*a)/2);
 
   return 0;
 }
