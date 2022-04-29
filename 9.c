@@ -6,7 +6,8 @@ int main() {
   scanf("%lf", &km);
   printf("Insira o tempo gasto em horas: ");
   scanf("%lf", &t);
-  printf("Velocidade Media: %.2lf km\n", km / t);
+  double velocidade_media = km / t;
+  printf("Velocidade Media: %.2lf km\n", velocidade_media);
 
   return 0;
 }
