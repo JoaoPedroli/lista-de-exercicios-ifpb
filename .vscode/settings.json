@@ -1,3 +1,7 @@
 {
-  "editor.fontSize": 17
+  "editor.fontSize": 17,
+  "files.associations": {
+    "255.C": "cpp",
+    "stdio.h": "c"
+  }
 }
