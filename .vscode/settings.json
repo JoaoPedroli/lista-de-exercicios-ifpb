@@ -3,5 +3,6 @@
   "files.associations": {
     "255.C": "cpp",
     "stdio.h": "c"
-  }
+  },
+  "workbench.colorTheme": "Quiet Light"
 }
