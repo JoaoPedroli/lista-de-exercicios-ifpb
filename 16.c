@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-int main() {
+void main() {
   char letra;
   printf("Insira a letra em minusculo: ");
   scanf("%c", &letra);
-  printf("A letra em maisculo corresponde a: %c", (int)(letra) - 32);
-
-  return 0;
+  printf("A letra em maisculo corresponde a: %c", letra - 32);
 }
