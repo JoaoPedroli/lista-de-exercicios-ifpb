@@ -9,7 +9,7 @@ void f(int n) {
     return;
   }
   printf("%.1f ", matriz[n][n]);
-  f(++n);
+  f(n + 1);
 }
 
 int main() {

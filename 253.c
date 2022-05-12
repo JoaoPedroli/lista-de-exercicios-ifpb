@@ -8,7 +8,7 @@ N linhas na tela do usuario.
 
 void f(int n) {
   if(n == 0) return;
-  printf("\n"), f(--n);
+  printf("\n"), f(n - 1);
 }
 
 int main() {

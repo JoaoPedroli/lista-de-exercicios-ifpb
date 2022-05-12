@@ -4,7 +4,7 @@ int termo_inicial, razao;
 
 int pa(int n) {
   if(n <= 1) return termo_inicial;
-  return razao + pa(--n);
+  return razao + pa(n - 1);
 }
 
 int main() {

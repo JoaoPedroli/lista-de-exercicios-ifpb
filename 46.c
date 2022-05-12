@@ -7,7 +7,6 @@ void main() {
   int a = num % 10;
   int b = num % 100 / 10;
   int c = num % 1000 / 100;
-  int d = num / 1000;
-  int rev = (a * 1000) + (b * 100) + (c * 10) + d;
-  printf("O inverso do numero eh: %d\n", rev);
+  int rev = (a * 100) + (b * 10) + c;
+  printf("O reverso do numero eh: %d\n", rev);
 }

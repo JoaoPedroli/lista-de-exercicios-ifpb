@@ -19,7 +19,7 @@ unsigned int f(int num_ateriscos, int num_casos) {
     return f(num_casos, num_casos);
   }
   printf("*");
-  return f(--num_ateriscos, num_casos);
+  return f(num_ateriscos - 1, num_casos);
 }
 
 int main() {
