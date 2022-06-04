@@ -2,7 +2,8 @@
   "editor.fontSize": 17,
   "files.associations": {
     "255.C": "cpp",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "time.h": "c"
   },
   "workbench.colorTheme": "SynthWave '84"
 }
